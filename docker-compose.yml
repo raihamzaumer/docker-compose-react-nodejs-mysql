@@ -107,14 +107,6 @@ services:
   
 
 
-  web:
-    image: nginx:latest
-    ports:
-      - "8081:80"
-  db:
-    image: mysql:8.0
-    environment:
-      MYSQL_ROOT_PASSWORD: example
 volumes:
   grafana_data:
   db:
